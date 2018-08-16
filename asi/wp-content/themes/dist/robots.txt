@@ -1,0 +1,3 @@
+User-agent: Yandex
+Disallow: 
+Sitemap: http://asiaelectro.kz/wp-content/themes/dist/981521_252.xml

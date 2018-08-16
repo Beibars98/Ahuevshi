@@ -1,0 +1,344 @@
+html {
+    border-top: 2.5px solid #4061ab;
+}
+html a {
+  text-decoration: none;
+  transition: transform .5s, color .5s linear;
+  color: #8A8A8A;
+}
+html a:hover {
+  color: #4061ab;
+  text-decoration: none;
+  transition: transform .5s, color .5s linear;
+}
+header {
+  margin-top: 2em;
+  width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4em;
+}
+header .logo {
+  float: left;
+  position: absolute;
+}
+header .orta {
+  margin-left: 34em;
+  font-size: 0.9em;
+  position: relative;
+  color: #8A8A8A;
+}
+header .adress {
+  margin-left: 61em;
+  margin-top: -3.5em;
+  font-size: 0.9em;
+  position: relative;
+  color: #8A8A8A;
+}
+header .telefon {
+  float: right;
+  right: 7em;
+  top: -3.1em;
+  position: relative;
+  text-align: center;
+}
+header button {
+  background-color: #4061ab;
+  border: none;
+  color: white;
+  border-radius: 10em;
+  width: 12em;
+  height: 2em;
+  transition: transform .5s, background-color .5s linear;
+}
+header button:hover {
+  transform: scale(1.2);
+  background-color: #cf2f21;
+}
+header .menu {
+  list-style: none;
+  border-top: 0.1em solid #E1DFDF;
+  margin-top: 3.5em;
+  width: 77%;
+}
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 2em;
+  margin-top: 0.6em;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+.menu input {
+  margin-top: -3em;
+}
+.menu input[type=search] {
+  border: none;
+  border-bottom: 1px solid #E1DFDF;
+  transition: transform .5s, border-color .5s linear;
+}
+.menu input[type=search]:hover {
+  border-color: #4061ab;
+}
+.menu input[type=submit] {
+  border: none;
+  padding: 0.3em;
+  border-radius: 20px;
+  width: 6em;
+  margin-left: 1em;
+}
+.slider {
+  margin-top: 5em;
+}
+.slider hr {
+  width: 100%;
+  box-shadow: 1px 1px 3px #828282;
+}
+.slider .carousel {
+  width: 95%;
+  margin-left: 2.8em;
+  margin-top: -1.3em;
+}
+.slider .carousel img {
+  width: 1680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider .carousel-caption {
+  margin-bottom: 3em;
+  font-size: 1.5em;
+  color: #F2F2F2;
+  font-family: Ubuntu;
+}
+.carousel-caption button {
+  background-color: #4061ab;
+  border: none;
+  color: white;
+  border-radius: 10em;
+  width: 12em;
+  height: 2.4em;
+  transition: transform .5s, background-color .5s linear;
+  font-size: 0.75em !important;
+}
+.carousel-caption button:hover {
+   transform: scale(1.2);
+   background-color: #cf2f21;
+}
+article {
+  margin-top: 26em;
+  font-family: 'Ubuntu', sans-serif;
+  width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4em;
+
+}
+article .container-fluid {
+  margin-bottom: 3.2em;
+}
+article hr {
+  width: 99%;
+  color: black;
+  margin-left: -2em;
+}
+article h2 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+article p {
+  font-size: 1.3em;
+}
+.chorni {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+.on {
+}
+.kol2 {
+  margin-left: 4em;
+}
+.seri {
+  background-color: #f0f0f0;
+  padding: 1.5em;
+}
+.seri h4 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+.sery li {
+  list-style: black;
+}
+.preim {
+  line-height: 3;
+}
+.preim hr {
+  width: 25.8em;
+  margin-left: -0.1em;
+  margin-top: -1.5em;
+  height:3px !important;
+  border:none !important;
+  color: #4061ab !important;
+  background-color:#4061ab !important;
+}
+.preim h2 {
+  margin-bottom: 1em;
+}
+.preim li {
+  list-style: none;
+  font-size: 1.2em;
+}
+.pervi {
+  float: left;
+  margin-left: -3em;
+}
+.vtoroi {
+  float: right;
+  margin-right: -32em;
+}
+.glyphicon {
+  color: #4061ab;
+  width: 1.5em;
+  font-size: 1.3em;
+}
+.zaya {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.zayavka {
+  border-left: 0.3em solid #4061ab;
+  margin-left: 9.5%;
+  padding: 0.5em 7em 0.5em 7em;
+  background: url(http://asiaelectro.kz/wp-content/uploads/2018/02/mediastage_set01-wave.png) no-repeat fixed;
+  background-position: 0.1em;
+  background-size: 2000px;
+  width: 1140px;
+}
+.zayavka button {
+  position: absolute;
+  margin-top: -4em;
+  margin-left: 56em;
+  background-color: #4061ab;
+  border: none;
+  color: white;
+  border-radius: 10em;
+  width: 12em;
+  height: 2em;
+  transition: transform .5s, background-color .5s linear;
+}
+.zayavka button:hover {
+  transform: scale(1.2);
+  background-color: #cf2f21;
+}
+.partners {
+  width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4em;
+}
+.partners hr {
+  width: 16em;
+  margin-left: -0.1em;
+  margin-top: -0.2em;
+  margin-bottom: 3em;
+  height:3px !important;
+  border:none !important;
+  color:#4061ab !important;
+  background-color:#4061ab !important;
+}
+div .part1 {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2018/06/partner4.png) no-repeat;
+  width: 17em;
+  height: 10em;
+  display: block;
+  background-position: center;
+  border-right: solid 0.1em #9C9C9C;
+  margin-left: -3em;
+}
+div .part1:hover {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2016/10/partner4.png) no-repeat;
+  background-position: center;
+  transition: background-image .5s linear;
+}
+div .part2 {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2018/06/part3.png) no-repeat;
+  width: 17em;
+  height: 11em;
+  display: block;
+  background-position: center;
+  border-right: solid 0.1em #9C9C9C;
+}
+div .part2:hover {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2016/10/partner3.png) no-repeat;
+  background-position: center;
+  transition: background-image .5s linear;
+}
+div .part3 {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2018/06/part2.png) no-repeat;
+  width: 17em;
+  height: 10em;
+  display: block;
+  background-position: center;
+  border-right: solid 0.1em #9C9C9C;
+}
+div .part3:hover {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2016/10/partner2.png) no-repeat;
+  background-position: center;
+  transition: background-image .5s linear;
+}
+div .part4 {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2018/06/part1.png) no-repeat;
+  width: 17em;
+  height: 10em;
+  display: block;
+  background-position: center;
+  border-right: solid 0.1em #9C9C9C;
+}
+div .part4:hover {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2016/10/partner1.png) no-repeat;
+  background-position: center;
+  transition: background-image .5s linear;
+}
+div .part5 {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2018/06/part5.png) no-repeat;
+  width: 15em;
+  height: 10em;
+  display: block;
+  background-position: center;
+}
+div .part5:hover {
+  background: url(http://asiaelectro.kz/wp-content/uploads/2016/10/partner5.png) no-repeat;
+  background-position: center;
+  transition: background-image .5s linear;
+}
+footer {
+  margin-top: 5em;
+  background-color: #4061ab;
+  color: white;
+  padding-left: 3em;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+footer .container-fluid {
+  width: 1366px;
+}
+footer img {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 15em;
+}
+
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: black;
+}
+footer .glyphicon {
+  color: white;
+}
+.serii {
+  color: #BDBDBD;
+}
